@@ -6,6 +6,8 @@ public class VerticalBarrier : MonoBehaviour
     {
         if (GameManager.State.HorizonalState != this.name)
         {
+            GameManager.State.HasChangedVertical = true;
+
             GameManager.State.VerticalState = this.name;
             Debug.Log(this.name);
         }

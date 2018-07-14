@@ -8,6 +8,7 @@ namespace Movement
         {
             if (GameManager.State.HorizonalState != this.name)
             {
+                GameManager.State.HasChangedHorizontal = true;
                 GameManager.State.HorizonalState = this.name;
                 Debug.Log(this.name);
             }

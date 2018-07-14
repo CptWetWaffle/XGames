@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="37093700_10217255634767005_7459948444682027008_n" size="3477.000000 2173.000000" />
     <ImageTarget name="Target" size="1500.000000 1050.000000" />
   </Tracking>
 </QCARConfig>

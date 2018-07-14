@@ -3,21 +3,19 @@
 public class GameManager : MonoBehaviour
 {
     public static State State;
+    public static bool StartGame;
     public Transform Head;
     public Transform Barriers;
-    void Start()
+
+    public GameManager()
     {
         if (State == null)
         {
             State = new State();
         }
 
-        Barriers.position += Head.position;
-    }
+        StartGame = false;
 
-    // Update is called once per frame
-    void Update()
-    {
-
+        /* Barriers.position += Head.position;*/
     }
 }
