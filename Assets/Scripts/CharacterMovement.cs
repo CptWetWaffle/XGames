@@ -24,9 +24,9 @@ namespace Assets.Scripts
         {
             if (!GameManager.StartGame)
             {
+                anim.SetInteger("Speed", 0);
                 model.transform.eulerAngles = new Vector3(0, -90, 0);
                 transform.rotation = new Quaternion();
-                anim.SetInteger("Speed", 0);
                 var xs = transform.localPosition.x;
                 var ys = transform.localPosition.y;
                 transform.position = new Vector3(xs, ys, z);
